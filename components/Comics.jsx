@@ -162,7 +162,7 @@ const Comics = () => {
             <div className="fumetto" >
                 <>
                     <figure>
-                        <img className="imgFumetti" src={fumetto.thumb} alt="" />
+                        <img className="imgFumetti" src={fumetto.thumb} alt={fumetto.description} />
                     </figure>
                     <div className="textNomeFumetto" >
                         <span className="nomeFumetto" >
