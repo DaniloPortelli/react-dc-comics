@@ -8,7 +8,7 @@ const Links = (props) => {
     return (
         <ul>
             {props.links.map((link, index) => (
-                <li key={index}><a>{link}</a></li>
+                <li key={index}><a href={link.href} >{link.text}</a></li>
             ))}
         </ul>
     )

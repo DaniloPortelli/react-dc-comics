@@ -3,7 +3,20 @@
 // Una volta fatto, provate a centralizzare i dati in App.jsx e a 
 // passarli come prop.
 
-const arrayLinks = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
+
+const arrayLinks = [
+    { id: 1, text: "CHARACTERS", href: "#" },
+    { id: 2, text: "COMICS", href: "#" },
+    { id: 3, text: "MOVIES", href: "#" },
+    { id: 4, text: "TV", href: "#" },
+    { id: 5, text: "GAMES", href: "#" },
+    { id: 6, text: "COLLECTIBLES", href: "#" },
+    { id: 7, text: "VIDEOS", href: "#" },
+    { id: 8, text: "FANS", href: "#" },
+    { id: 9, text: "NEWS", href: "#" },
+    { id: 10, text: "SHOP", href: "#" }
+  ];
+  
 
 import Links from "/components/Links"
 
